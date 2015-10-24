@@ -1,8 +1,6 @@
 
 
-* {
-    border: 1px solid black;
-}
+
 
 .nav-bar {
     text-align: center;
@@ -100,8 +98,28 @@ body {
 
 .middle {
     display: inline-block;
+    float: left;
 }
 
 .middle h2 {
     color: #555;
+}
+
+.lists {
+    display: inline-block;
+    float: right;
+}
+
+.lists h2 {
+    color: #555;
+}
+
+.wrapper {
+    width: 1110px;
+}
+
+.top img {
+    margin-left: 20px;
+    width: 75px;
+    height: 60px;
 }
