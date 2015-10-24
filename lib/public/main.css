@@ -1,0 +1,107 @@
+
+
+* {
+    border: 1px solid black;
+}
+
+.nav-bar {
+    text-align: center;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #FFF;
+    color: #A7A7A7;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 0px;
+    width: 870px;
+}
+
+.nav-bar li {
+    display: inline;
+    margin: 2px;
+}
+
+.side-bar {
+    width: 245px;
+    list-style: none;
+    padding: 12px;
+    display: block;
+    background-color: #FFFFFF;
+
+}
+
+
+.side-bar ul {
+    list-style: none;
+    padding: 0px 0px 0px 20px;
+    color: #52B5CC;
+}
+
+.side-bar h3 {
+    color: #555;
+}
+
+
+.list_items {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.list-items ul {
+    list-style: none;
+    padding: 0px;
+    width: 808px;
+}
+
+.list-items li {
+    height: 245px;
+    width: 245px;
+    display: inline-block;
+    padding: 0px;
+    margin: 9px;
+    background-color: #FFF;
+}
+
+.list-items li p {
+    display: inline-block;
+}
+
+.title {
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.shop {
+    font-size: 14px;
+    color: #A7A7A7;
+}
+
+.currency{
+    float: right;
+    color: #78C042;
+}
+
+img {
+    width: 244px;
+    height: 180px;
+}
+
+body {
+    background-color: #F5F5F1;
+}
+
+.middle {
+    display: inline-block;
+}
+
+.middle h2 {
+    color: #555;
+}

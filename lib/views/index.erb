@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Rob's Etsy API Clone</title>
+      <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+
+    <section class="nav-bar">
+      <div class="header"></div>
+      <div class="links">
+        <ul>
+          <li>Clothing & Accessories</li>
+          <li>Jewelry</li>
+          <li>Craft Supplies & Tools</li>
+          <li>Weddings</li>
+          <li>Entertainment</li>
+          <li>Home & Living</li>
+          <li>Kids & Baby</li>
+          <li>Vintage</li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <div class="middle">
+      <h2>Show results for:</h2>
+
+    <section class="side-bar">
+      <h3>All Categories</h3>
+      <ul>
+        <li>Home & Living</li>
+        <li>Art & Collectibles</li>
+        <li>Weddings</li>
+        <li>Clothing</li>
+        <li>Paper & Party Supplies</li>
+        <li>Jewelry</li>
+        <li>Accessories</li>
+        <li>Craft Supplies & Tools</li>
+        <li>Bags & Purses</li>
+        <li>Bath & Beauty</li>
+        <li>Shoes</li>
+        <li>Books, Movies & Music</li>
+        <li>Electronics & Accessories</li>
+        <li>Toys & Games</li>
+        <li>Pet Supplies</li>
+      </ul>
+
+    </section>
+      </div>
+
+    <section class="list-items">
+    <ul>
+        <% items.each do |x| %>
+
+            <li>
+
+              <img src="<%= x["Images"][0]["url_fullxfull"] %>" >
+
+             <p class="title"> <%=  x["title"] %> </p>
+              <p class="shop"> <%= x["Shop"]["shop_name"] %> </p>
+              <p class="currency">$<%= x["price"] %> <%= x["currency_code"] %> </p>
+            </li>
+        <% end %>
+    </ul>
+
+</section>
+
+
+
+    </body>
+
+</html>
