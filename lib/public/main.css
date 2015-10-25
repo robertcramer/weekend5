@@ -123,3 +123,13 @@ body {
     width: 75px;
     height: 60px;
 }
+
+.top {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top form {
+    display: inline-block;
+    vertical-align: middle;
+}
